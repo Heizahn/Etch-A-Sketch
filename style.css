@@ -1,0 +1,58 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+
+	background-color: rgb(93, 93, 110);
+}
+
+.container {
+	width: 960px;
+	/* Establecer el ancho total deseado */
+	margin: auto;
+	/* Centrar el contenedor en la página */
+}
+
+
+.screen {
+	display: flex;
+	justify-content: center;
+}
+
+.screen>div {
+	background-color: rgb(47, 40, 59);
+}
+
+.screen>div>div:hover {
+	background-color: blue;
+}
+
+.screen>div>div {
+	transition: all .2s ease;
+}
+
+
+.input-number {
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.input-number input,
+.input-number button {
+	font-size: 18px;
+	padding: 5px 8px;
+}
+
+footer {
+	padding: 30px 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-size: 24px;
+}
